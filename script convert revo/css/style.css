@@ -1,0 +1,59 @@
+#navigation-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    height: min-content;
+    margin-top: 0;
+}
+
+#navigation{
+    display: flex;
+}
+
+#navigation>a {
+    text-decoration: none;
+    padding:8px;
+}
+
+#navigation:hover{
+    color:red;
+}
+
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.input-field {
+    outline: none;
+    border-radius: 8px;
+    border:solid black;
+    padding:8px 16px;
+}
+
+.input-field:focus{
+    border:solid blue;
+}
+
+.Choice{
+    background-color: cyan;
+    color:black;
+    border-radius: 8px;
+    border:none;
+    padding:8px;
+    cursor: pointer;
+    margin-top: 4px;
+    
+}
+.Choice:focus{
+    background-color: darkcyan;
+}
+
+.Choice:active{
+    background-color: darkcyan;
+    transform: translateY(3px);
+}

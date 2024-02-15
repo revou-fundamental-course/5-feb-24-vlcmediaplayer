@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter suhu</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="./CSS/script.js"></script>
+</head>
+<body>
+    <header id="navigation-bar">
+            <h3 id="judul">Konvert celcius ke fahrenheit</h3>
+            <nav id="navigation">
+                <a href="">Lihat Hasil</a>
+                <a href="">Lihat Rumus</a>
+            </nav>
+    </header>
+    <div class="input-section">
+        <label for="input-field" >Celcius(°C):</label>
+        <input type="number" class="input-field" id="inputCelcius" placeholder="Masukkan Suhu">
+    </div>
+    <div>
+        <button class="Choice" onclick="konversi()">Konversi</button>
+        <button class="Choice" onclick="resetForm()">Reset</button>
+        <button class="Choice" onclick="reverse()">Reverse</button>
+    </div>
+    <div class="input-section">
+        <label for="input-field" >Fahrenheit(°F):</label>
+        <input type="number" class="input-field" id="hasilKonversi">
+    </div>
+    <p>Cara Kalkulasi :</p>
+    <textarea rows="8" cols="64" id="caraKalkulasi" readonly></textarea>
+    <h1 id="Deskripsi"></h1>
+    <h4 id="judulPenjelasanRumus"></h4>
+    <p id="penjelasanRumus"></p>
+    <p id="atau"></p>
+    <p id="penjelasanRumuske2"></p>
+</body>
+</html>
